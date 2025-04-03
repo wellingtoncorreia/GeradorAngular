@@ -1,70 +1,61 @@
-# GeradorAngular
+# 🚀 Gerador de Projetos Angular
 
-O **GeradorAngular** é uma ferramenta desktop simples e prática para gerar projetos Angular com uma estrutura inicial personalizada, visando agilidade e padronização no desenvolvimento frontend.
+Este é um aplicativo desenvolvido em **Python** com **Tkinter** e **ttkbootstrap** para facilitar a criação de projetos Angular, permitindo a seleção do tipo de CSS e a ativação do **Server-Side Rendering (SSR)**.
 
-## ✨ Funcionalidades
+## 📌 Funcionalidades
+- Criação automática de um projeto Angular utilizando `@angular/cli`
+- Opção para escolher o tipo de CSS (`CSS`, `SCSS`, `LESS`, `Stylus`)
+- Opção para ativar ou não o **SSR (Server-Side Rendering)**
+- Interface gráfica moderna com `ttkbootstrap`
+- Escolha do diretório de salvamento
+- Abertura automática do projeto no VS Code após a criação
 
-- Criação automatizada de um novo projeto Angular.
-- Estrutura base personalizada.
-- Interface simples com execução via aplicativo desktop.
-- Instalador `.exe` incluído para facilitar a distribuição.
+## 🛠 Tecnologias Utilizadas
+- **Python 3**
+- **Tkinter** (para interface gráfica)
+- **ttkbootstrap** (para um design moderno)
+- **subprocess** (para execução de comandos Angular CLI)
+- **Angular CLI** (para a criação dos projetos)
 
-## 🛠️ Tecnologias Utilizadas
+## 📂 Estrutura do Projeto Criado
+Após a execução do programa, será gerado um projeto com a seguinte estrutura padrão:
+```
+📂 NomeDoProjeto
+ ├── 📂 src
+ │   ├── 📂 app
+ │   │   ├── 📄 app.component.ts
+ │   │   ├── 📄 app.component.html
+ │   │   ├── 📄 app.component.css (ou outro tipo selecionado)
+ │   │   └── 📄 app.module.ts
+ │   ├── 📂 assets
+ │   ├── 📂 environments
+ │   ├── 📄 main.ts
+ │   ├── 📄 index.html
+ │   ├── 📄 styles.css (ou outro tipo selecionado)
+ │   ├── 📄 angular.json
+ │   ├── 📄 package.json
+ │   └── 📄 tsconfig.json
+```
+Se a opção **SSR** for ativada, arquivos adicionais do **Angular Universal** serão incluídos.
 
-- **Python**: Script principal (`geradorAngular.py`) que gerencia a geração do projeto.
-- **Angular CLI**: Utilizado para criar a base do projeto Angular.
-- **Inno Setup**: Usado para gerar o instalador do aplicativo desktop.
-- **PyInstaller**: Empacotamento do script Python em um executável.
+## 🚀 Como Instalar e Executar
+### 1️⃣ Baixe o Instalador
+Acesse o repositório e baixe o instalador mais recente:
+🔗 [Gerador de Projetos Angular](https://github.com/wellingtoncorreia/GeradorAngular.git)
 
-## 📁 Estrutura do Repositório
+### 2️⃣ Execute o Instalador
+Após o download, execute o instalador e siga as instruções na tela.
 
-![image](https://github.com/user-attachments/assets/639a6922-1db4-498a-8804-8b8303e632f4)
+### 3️⃣ Abra o Aplicativo
+Após a instalação, basta abrir o **Gerador de Projetos Angular** e criar seu projeto de forma rápida e prática.
 
+## 🖥️ Compatibilidade
+✅ Windows
 
-Copiar
-Editar
+## 📝 Notas
+- Certifique-se de ter o **Node.js** e o **Angular CLI** instalados para evitar erros.
+- Se desejar abrir o projeto em outro editor, altere as configurações no aplicativo.
 
+## 📢 Créditos
+Criado por **Prof-Café ☕**
 
-## 🚀 Como Usar
-
-### Executável (Windows)
-
-1. Baixe o arquivo `Setup_GeradorProjetosAngular.exe`.
-2. Execute o instalador e siga as instruções.
-3. Ao abrir o aplicativo, siga as instruções para gerar seu projeto Angular.
-
-### Via Código (Desenvolvedores)
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/wellingtoncorreia/GeradorAngular.git
-   cd GeradorAngular
-Instale as dependências Python (se necessário):
-
-bash
-Copiar
-Editar
-pip install PyInstaller
-Execute o script:
-
-bash
-Copiar
-Editar
-python geradorAngular.py
-🤝 Contribuindo
-Contribuições são sempre bem-vindas! Sinta-se à vontade para:
-
-Abrir uma issue
-
-Criar um fork e abrir um pull request com sugestões ou melhorias
-
-📄 Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
-
-Feito com ❤️ por Wellington Correia
-
-go
-Copiar
-Editar
-
-Se quiser, posso gerar o arquivo para você baixar direto como `.md` também. Deseja isso?
